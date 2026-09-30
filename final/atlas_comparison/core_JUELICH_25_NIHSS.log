@@ -1,0 +1,40 @@
+NIHSS 1 / 15 complete
+NIHSS 2 / 15 complete
+NIHSS 3 / 15 complete
+NIHSS 4 / 15 complete
+NIHSS 5 / 15 complete
+NIHSS 6 / 15 complete
+NIHSS 7 / 15 complete
+NIHSS 8 / 15 complete
+NIHSS 9 / 15 complete
+NIHSS 10 / 15 complete
+NIHSS 11 / 15 complete
+NIHSS 12 / 15 complete
+NIHSS 13 / 15 complete
+NIHSS 14 / 15 complete
+NIHSS 15 / 15 complete
+    method    auroc  delta_auc  repeat_auroc_mean
+      ET_L 0.621457  -0.090981           0.617784
+      ET_T 0.655196  -0.057242           0.653021
+      ET_W 0.671615  -0.040823           0.669366
+   ET_base 0.714238   0.001799           0.705391
+ ET_base_L 0.715812   0.003374           0.706815
+ ET_base_T 0.722335   0.009897           0.714987
+ ET_base_W 0.726271   0.013833           0.720498
+      LR_L 0.680387  -0.032051           0.667810
+      LR_T 0.561741  -0.150697           0.560485
+      LR_W 0.651934  -0.060504           0.607925
+   LR_base 0.667004  -0.045434           0.660931
+ LR_base_L 0.651484  -0.060954           0.636827
+ LR_base_T 0.567364  -0.145074           0.568414
+ LR_base_W 0.635065  -0.077373           0.619171
+      V1_L 0.636865  -0.075574           0.635103
+      V1_T 0.687584  -0.024854           0.682936
+      V1_W 0.653621  -0.058817           0.661194
+   V1_base 0.712438   0.000000           0.697575
+ V1_base_L 0.706253  -0.006185           0.697856
+ V1_base_T 0.726833   0.014395           0.718061
+ V1_base_W 0.707152  -0.005286           0.694594
+V1_blend_L 0.716937   0.004498           0.702467
+V1_blend_T 0.735043   0.022605           0.718698
+V1_blend_W 0.725371   0.012933           0.710564

@@ -1,0 +1,21 @@
+{
+  "atlas": "JHU",
+  "regions": 48,
+  "paired_regions": 42,
+  "whole_region_computable": 44,
+  "median_affected_regions": 4.0,
+  "median_firstorder_regions": 3.0,
+  "median_contrast_regions": 2.0,
+  "median_texture_regions": 1.0,
+  "patients_without_texture": 84,
+  "patients_without_firstorder": 26,
+  "columns": {
+    "Fwhole": 4464,
+    "S": 48,
+    "L": 960,
+    "T": 4656
+  },
+  "archive_sha256": "5608d6ac1bd16ce32ceed9d591cf5454622d69b02294e395d09d0ed94fcbbc6e",
+  "assembler_sha256": "fd0f0e4d9c9a544301146a59d297d91a4bff9978f3124cf709157e90e2073238",
+  "outcomes_read": false
+}

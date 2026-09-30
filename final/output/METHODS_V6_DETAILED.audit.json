@@ -1,0 +1,63 @@
+{
+  "document": "METHODS_V6_DETAILED.md",
+  "audience": "standalone human-readable methods",
+  "sha256": "b0496d4c74de9f9c4b1478961aab0551e9f31b7e3b4ebfe92a0262ac0fca8a04",
+  "characters": 79906,
+  "lines": 1391,
+  "numbered_sections": 32,
+  "pending_figures": 18,
+  "pending_tables": 16,
+  "research_version_references": [
+    "V1"
+  ],
+  "historical_source_links_in_document": 0,
+  "filled_tables": 33,
+  "embedded_figures": 0,
+  "original_technical_draft": "../documentation_archive/METHODS_V6_TECHNICAL_20260920.md",
+  "sources_sha256": {
+    "../../config/protocol.json": "04e3b87af116bc3a44c46eb8e4f1f5c642c58c50f3dfb297873718bd7a866b68",
+    "../../extract_v6.py": "f92de60dff377f810d7be606b3ce677ffe9131c984749b1ec602698a10b02850",
+    "../../assemble_v6.py": "ab0979ff418f3545693fa5e85d9f04f4c767c8618b3f1bf7192b8d67c0e51a61",
+    "../../model_v6.py": "97c5fb7c23271b43fdd59f20fc0e31905cd7b26b2793eacef989e9e75250091d",
+    "../../../ischemic stroke analyseV5/extract_v5.py": "2ddf94ea6d67b8f9552d986e8329c1a7e13dd85651c533172ce5bb31467ac92f",
+    "../../../ischemic stroke analyseV5/assemble_v5.py": "405b3d677988e7b4a8134fc774fa4e3871f5a80fc09c52d2eb7e5b5c376bc223",
+    "../../../ischemic stroke analyseV4/run_v4.py": "0d2b71aa1c2aebdac0c21ddc96ce2fba9fb2a01c86b54f2b8aa13a1ef8600689",
+    "../../../ischemic stroke analyseV2/leakage_free_experiment.py": "bfbbb66a7cb1a7311999973ebe58939bfe78625c38d17843fc2262550f3d3078",
+    "../../ablate_flags.py": "f4e9111c2b8167163438c6a93a02897c9cf1403a655f7bcee50521fa4fdbd7d6",
+    "../reproduce_tables.py": "f701fb0d3c55d3e7082ee021c2e412af4f4f1ef41a600d21bbc73db3bbc06a3e",
+    "../report_tables.py": "c6bfe2153118ece72220dbcaf4941e0f5580d8a13c32dcf2992efadab045246f",
+    "core/config.json": "1fb701554de963727ac087ea86088e3ba64d33b0af417e2af53d94a2158f5abc",
+    "experiment_config.json": "5f641440669b42aae038d3c725b92f673f9d14dfac84b80345edf5c57912fdda",
+    "../../../CLINICAL_PREDICTOR_EXCLUSIONS.md": "aeb60887a5356434058db4ed21652161f627135ef6a41622f6754379f7658959"
+  },
+  "filled_results_tables": 33,
+  "complete_main_metric_rows": 48,
+  "complete_supplementary_metric_rows": 144,
+  "quantitative_sources_sha256": {
+    "all_metrics.csv": "3b62fab5a449d69a2ad4c9be2fde0e048662b509b7851855bcbf2991d1dbdd8c",
+    "cohort_counts.csv": "b66773e833208dfdf1de9de64641919764b8d94aca18b0c6c941f1228eb1e9e5",
+    "core/mRS_summary.csv": "291c6a009f7aa5c8fdd3304aea052472dc8868b27aacf717ae31b48a479ce0d3",
+    "core/mRS_matched_comparisons.csv": "187e1462aff5f265de093511c4568bc266a5205eaaeabb1e587b67839c0e7a6b",
+    "core/NIHSS_summary.csv": "1cdb475a40034b4d58be10ab18b607b04efaba0b8b702577bf647732c58dbf4c",
+    "core/NIHSS_matched_comparisons.csv": "c4af3431b10e8b0e621e04c6b0c349cc6979e6a38ea31232864a6dbc1b62a9e3"
+  },
+  "atlas_comparison": {
+    "section": 32,
+    "tables": "R24-R33",
+    "atlases": [
+      "AAL3",
+      "BA",
+      "JHU",
+      "JUELICH_25"
+    ],
+    "sources_sha256": {
+      "atlas_all_metrics.csv": "1014ba6ddea1fb91d482e9543844fba0c4463a45654b4a4932031fc262638be5",
+      "atlas_paired_delta_vs_AAL3.csv": "2c379b184d9c73cba8e978879203e92341650053edf96ba40d678d1e3827c436",
+      "atlas_top_shap_regions.csv": "4ba5b9e715fb67f46ef6d5549d65461e960c0b657f9bdaf7bbba7c87ce5c222d",
+      "audit.json": "71d3d897e154710ba14ddcf95a974e8e7588951472df94f155bd030ea8bddd93",
+      "core_all_metrics.csv": "9cc18ba11f61a8f67b14bbff7ec0642f72a2a9f9fd2ae2a4e63e4902b2e6b04c",
+      "core_matched_vs_B.csv": "9564db342274f3e3948929ea05d6cdf1b67bbc73dff3307621d070c932f8a160",
+      "core_paired_delta_vs_AAL3.csv": "a4e22683d0ae06a8a7f355601af2ed6f8eb33903ab615ba56cb8811f2df569b5"
+    }
+  }
+}

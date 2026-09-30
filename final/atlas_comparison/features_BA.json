@@ -1,0 +1,21 @@
+{
+  "atlas": "BA",
+  "regions": 41,
+  "paired_regions": 0,
+  "whole_region_computable": 41,
+  "median_affected_regions": 4.0,
+  "median_firstorder_regions": 3.0,
+  "median_contrast_regions": 0.0,
+  "median_texture_regions": 1.0,
+  "patients_without_texture": 86,
+  "patients_without_firstorder": 41,
+  "columns": {
+    "Fwhole": 3813,
+    "S": 41,
+    "L": 820,
+    "T": 3977
+  },
+  "archive_sha256": "9974c6a4427dc645f4dd8786f0cc5462719da3c597036c920c4e6a5273cdfe78",
+  "assembler_sha256": "fd0f0e4d9c9a544301146a59d297d91a4bff9978f3124cf709157e90e2073238",
+  "outcomes_read": false
+}

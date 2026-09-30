@@ -1,0 +1,20 @@
+# V6 uses two Python environments (versions as used for the reported results).
+
+# --- Modelling / reports (Python 3.9): model_v6.py, ablate_flags.py, report_v6.py, final/*.py
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+lightgbm==4.6.0
+xgboost==2.1.4
+catboost==1.2.8
+nibabel==5.3.3
+matplotlib==3.9.4
+openpyxl==3.1.5
+
+# --- Image extraction (Python 3.11, separate env): extract_v6.py, assemble_v6.py,
+#     final/atlas_comparison/extract_atlas.py, validate_aal3.py
+# numpy==1.26.4
+# SimpleITK==2.5.5
+# pyradiomics==3.0.1
+# nibabel==5.4.2

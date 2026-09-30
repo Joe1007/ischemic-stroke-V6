@@ -1,0 +1,7 @@
+{
+  "task": "NIHSS",
+  "n": 192,
+  "positive": 78,
+  "negative": 114,
+  "missing_target_in_image_cohort": 6
+}

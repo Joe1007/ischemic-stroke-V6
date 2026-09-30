@@ -1,0 +1,5 @@
+task,n,positive,negative,missing_target_in_image_cohort
+mRS,191,80,111,7
+NIHSS,192,78,114,6
+TE,196,38,158,2
+LVO,196,77,119,2

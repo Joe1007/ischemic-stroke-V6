@@ -1,0 +1,21 @@
+{
+  "atlas": "JUELICH_25",
+  "regions": 121,
+  "paired_regions": 118,
+  "whole_region_computable": 109,
+  "median_affected_regions": 5.0,
+  "median_firstorder_regions": 3.0,
+  "median_contrast_regions": 2.5,
+  "median_texture_regions": 1.0,
+  "patients_without_texture": 79,
+  "patients_without_firstorder": 40,
+  "columns": {
+    "Fwhole": 11253,
+    "S": 121,
+    "L": 2420,
+    "T": 11737
+  },
+  "archive_sha256": "cdcca8998d9ea0f5d29fc7b40b52a160be5b38fccbf9e33af9de8db1b4b75b09",
+  "assembler_sha256": "fd0f0e4d9c9a544301146a59d297d91a4bff9978f3124cf709157e90e2073238",
+  "outcomes_read": false
+}

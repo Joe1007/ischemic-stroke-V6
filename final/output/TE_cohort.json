@@ -1,0 +1,7 @@
+{
+  "task": "TE",
+  "n": 196,
+  "positive": 38,
+  "negative": 158,
+  "missing_target_in_image_cohort": 2
+}

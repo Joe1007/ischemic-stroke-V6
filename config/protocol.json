@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "hypothesis": "Lesion-aware AAL3 regional radiomics and homologous nonlesional contrast preserve localized signal diluted in whole-region descriptors",
+  "cohort": "Frozen 198 V5 complete cases; unchanged original clinical labels",
+  "normalization": "V5 unclip_p99",
+  "small_roi_min_voxels": 8,
+  "texture_min_voxels_exclusive": 64,
+  "reference_min_voxels": 64,
+  "reference": "Whole homologous AAL3 region, excluding lesion dilated by 2 MNI voxels; paired by anatomical names, not numeric parity. This is not a mirrored lesion-shaped ROI.",
+  "firstorder": ["Mean", "Median", "P10", "P90", "SD", "IQR", "RMS", "Entropy"],
+  "contrast": "(lesion_stat-reference_stat)/(abs(lesion_stat)+abs(reference_stat)+5)",
+  "absence": "No lesion: zeros. Affected but too small or missing reference/texture: NaN plus explicit availability indicators; train-only median imputation.",
+  "texture": "93 PyRadiomics Original features, V5 settings; lesion intersect AAL3, only >64 valid voxels and >=2 nonsingleton dimensions",
+  "blocks": ["L", "T", "W"],
+  "L": "Eight lesion first-order descriptors and eight homologous contrasts per AAL3 region plus availability flags",
+  "T": "93 lesion-intersection radiomics per AAL3 region plus availability flags",
+  "W": "V5 whole-region radiomics multiplied by that region's lesion fraction; unaffected regions zero",
+  "baseline": "C core + volume + global availability + training-selected 20 AAL3 burden + training-selected global lesion radiomics; identical V5 B_R__unclip_p99",
+  "modelling": {
+    "tasks": ["mRS", "NIHSS"], "folds": 5, "repeats": 3, "seed": 20260909,
+    "mRS_features": 20, "NIHSS_features": 35,
+    "original": "V1 LightGBM/RFE/SMOTE, separate block selection inside each training fold",
+    "secondary": "ExtraTrees 400 trees min_samples_leaf=5 max_features=0.7 balanced; logistic L2 C=0.1 balanced; all train-preprocessed columns, no supervised screening",
+    "fusion": "Direct concatenation; additionally fixed 0.75 baseline + 0.25 regional-only probability blend for V1 model",
+    "primary": "mRS V1 baseline+L versus V1 baseline",
+    "selection": "No outer-fold protocol/model/weight selection. Report every fixed comparison, exploratory cohort reuse acknowledged.",
+    "uncertainty": "2000 stratified paired patient bootstraps of averaged OOF predictions; conditional, not full retraining or research-selection uncertainty"
+  }
+}

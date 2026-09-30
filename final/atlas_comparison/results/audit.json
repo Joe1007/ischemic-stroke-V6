@@ -1,0 +1,61 @@
+{
+  "identical_atlas_independent_methods": {
+    "BA/mRS": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JHU/mRS": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JUELICH_25/mRS": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "BA/NIHSS": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JHU/NIHSS": {
+      "methods": 10,
+      "max_abs_probability_difference": 1.1102230246251565e-16
+    },
+    "JUELICH_25/NIHSS": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "BA/TE": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JHU/TE": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JUELICH_25/TE": {
+      "methods": 10,
+      "max_abs_probability_difference": 1.1102230246251565e-16
+    },
+    "BA/LVO": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    },
+    "JHU/LVO": {
+      "methods": 10,
+      "max_abs_probability_difference": 1.1102230246251565e-16
+    },
+    "JUELICH_25/LVO": {
+      "methods": 10,
+      "max_abs_probability_difference": 2.220446049250313e-16
+    }
+  },
+  "aal3_matches_published": true,
+  "core_baseline_identical": {
+    "BA/mRS": 0.0,
+    "JHU/mRS": 0.0,
+    "JUELICH_25/mRS": 0.0,
+    "BA/NIHSS": 0.0,
+    "JHU/NIHSS": 0.0,
+    "JUELICH_25/NIHSS": 0.0
+  }
+}

@@ -1,0 +1,13 @@
+feature,mean_abs_heldout_shap,selection_fraction,region,kind
+C::clinical|age,0.4379367488906951,1.0,,clinical_or_burden
+C::clinical|sex,0.36128279744845004,1.0,,clinical_or_burden
+C::clinical|HTN,0.16393797187586678,1.0,,clinical_or_burden
+C::clinical|Lipid,0.12250933602042247,1.0,,clinical_or_burden
+C::clinical|DM,0.09887576082741074,1.0,,clinical_or_burden
+C::clinical|smoking,0.06885737524133158,1.0,,clinical_or_burden
+C::clinical|AF,0.027703788034675575,1.0,,clinical_or_burden
+C::clinical|RecurSt,0.019418100529779728,1.0,,clinical_or_burden
+C::clinical|alcohol,0.006649206209524351,1.0,,clinical_or_burden
+C::clinical|CAD,0.0,1.0,,clinical_or_burden
+C::clinical|CHF,0.0,1.0,,clinical_or_burden
+C::clinical|cancer,0.0,1.0,,clinical_or_burden

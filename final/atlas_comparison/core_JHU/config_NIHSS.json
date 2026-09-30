@@ -1,0 +1,16 @@
+{
+  "atlas": "JHU",
+  "task": "NIHSS",
+  "jobs": 2,
+  "baseline": "unchanged V6/V5 AAL3 baseline",
+  "regional_blocks": [
+    "L",
+    "T",
+    "W"
+  ],
+  "sources": {
+    "ischemic stroke analyseV6/final/atlas_comparison/run_core_atlas.py": "daf68aed69344f48fd2bef4224b1c1033eda8a794346e3f770036ed6f532ba8a",
+    "ischemic stroke analyseV6/model_v6.py": "97c5fb7c23271b43fdd59f20fc0e31905cd7b26b2793eacef989e9e75250091d",
+    "ischemic stroke analyseV6/final/atlas_comparison/features_JHU.npz": "5608d6ac1bd16ce32ceed9d591cf5454622d69b02294e395d09d0ed94fcbbc6e"
+  }
+}

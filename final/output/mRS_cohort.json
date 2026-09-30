@@ -1,0 +1,7 @@
+{
+  "task": "mRS",
+  "n": 191,
+  "positive": 80,
+  "negative": 111,
+  "missing_target_in_image_cohort": 7
+}

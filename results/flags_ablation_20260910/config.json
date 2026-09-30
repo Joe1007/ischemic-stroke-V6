@@ -1,0 +1,9 @@
+{
+  "purpose": "Post-hoc mechanistic diagnostic after mRS T selected 299 flags / 300 slots; not independent validation",
+  "model": "V1 base plus separately training-RFE-selected flags, same keep count and splits",
+  "sources": {
+    "ischemic stroke analyseV6/ablate_flags.py": "f4e9111c2b8167163438c6a93a02897c9cf1403a655f7bcee50521fa4fdbd7d6",
+    "ischemic stroke analyseV6/model_v6.py": "97c5fb7c23271b43fdd59f20fc0e31905cd7b26b2793eacef989e9e75250091d",
+    "ischemic stroke analyseV6/output/features.npz": "af9726d5854f21dfbb69e1bc27e0b4bdb58f4d6157c777131c11ff368a748d48"
+  }
+}

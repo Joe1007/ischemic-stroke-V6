@@ -1,0 +1,53 @@
+{
+  "mRS": {
+    "n": 191,
+    "folds": 15,
+    "methods": 24,
+    "reproduces_all_archived_predictions_atol": 1e-12,
+    "patient_separation_verified": true
+  },
+  "NIHSS": {
+    "n": 192,
+    "folds": 15,
+    "methods": 24,
+    "reproduces_all_archived_predictions_atol": 1e-12,
+    "patient_separation_verified": true
+  }
+}
+/ssd4/joe1007/ischemic-stroke-analyse-and-fusion-extraction/ischemic stroke analyseV6/final/report_tables.py:127: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  summary[summary.method.str.contains('LightGBM_(RFE|backward)_(C|R|S|T|Fwhole)$',regex=True)].to_csv(report/'table_4_6_selection.csv',index=False)
+{
+  "mRS": {
+    "n": 191,
+    "folds": 15,
+    "methods": 36,
+    "oof_per_patient": 3,
+    "shap_probability_reconstruction": true,
+    "disjoint_patient_ids": true
+  },
+  "NIHSS": {
+    "n": 192,
+    "folds": 15,
+    "methods": 36,
+    "oof_per_patient": 3,
+    "shap_probability_reconstruction": true,
+    "disjoint_patient_ids": true
+  },
+  "TE": {
+    "n": 196,
+    "folds": 15,
+    "methods": 36,
+    "oof_per_patient": 3,
+    "shap_probability_reconstruction": true,
+    "disjoint_patient_ids": true
+  },
+  "LVO": {
+    "n": 196,
+    "folds": 15,
+    "methods": 36,
+    "oof_per_patient": 3,
+    "shap_probability_reconstruction": true,
+    "disjoint_patient_ids": true
+  }
+}
+Completed output: /ssd4/joe1007/ischemic-stroke-analyse-and-fusion-extraction/ischemic stroke analyseV6/final/output

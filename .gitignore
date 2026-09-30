@@ -1,0 +1,40 @@
+# ---- Local environment ------------------------------------------------------
+# Third-party packages installed with `pip --target` for the AD env; install from
+# requirements.txt instead.
+final/deps/
+__pycache__/
+*.pyc
+
+# ---- Patient-level data: kept on the lab machine only, never published --------
+# Per-patient feature matrices / SHAP values and per-patient extraction checkpoints.
+*.npz
+*.json.gz
+checkpoints/
+pilot/
+pilot.log
+extraction.log
+final/atlas_comparison/extract_*/
+final/atlas_comparison/extract_*.log
+final/atlas_comparison/validate_*/
+output/manifest.json
+output/COMPLETE.json
+output/features_manifest.json
+output/availability_qc.csv
+
+# Per-fold train/test patient lists and per-patient predictions / outcome labels.
+*_split_[0-9][0-9][0-9].json
+*_oof_predictions.csv
+*_oof_by_repeat.csv
+*_audit.json
+final/tables_20260917/*_[0-9][0-9][0-9]/
+final/atlas_comparison/tables_*/*_[0-9][0-9][0-9]/
+
+# Run configs that embed the patient ID list.
+results/lesion_20260909/config.json
+inputs/v5_reference_predictions/config.json
+final/atlas_comparison/tables_*/config.json
+final/output/core/config.json
+
+# ---- Local leftovers --------------------------------------------------------
+*.bak_before_atlas
+*.lock

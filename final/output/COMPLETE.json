@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    "mRS",
+    "NIHSS",
+    "TE",
+    "LVO"
+  ],
+  "files_hashed": 520,
+  "report": "RESULTS.md"
+}
